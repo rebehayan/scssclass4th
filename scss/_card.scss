@@ -64,6 +64,7 @@ $boxDesign: (
 );
 
 .box-type1 {
+  font-size: 10px;
   @include box2($boxDesign, 1);
 }
 .box-type2 {
