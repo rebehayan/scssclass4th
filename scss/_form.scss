@@ -1,0 +1,11 @@
+input:not([type="checkbox"], [type="radio"]) {
+  @extend %form;
+}
+select {
+  @extend %form;
+  // 화살표디자인넣고,
+}
+textarea {
+  height: 100px;
+  @extend %form;
+}

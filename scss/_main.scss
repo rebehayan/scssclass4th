@@ -1,0 +1,29 @@
+.alram-bar {
+  background: url(#{$imgUrl}ico_arrow_right_white.svg) no-repeat right 12px center $black1e;
+  font-size: 13px;
+  color: $white;
+  height: $radius38;
+  border-radius: $radius38;
+  padding: 8px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.alram-bar span {
+  padding: 0 9px;
+  line-height: $radius22;
+  border-radius: $radius22;
+  color: $black1e;
+  #{$bc}: rgba($green09, 0.2);
+  font-size: 13px;
+  &.#{$yellow} {
+    #{$bc}: $yellow;
+  }
+}
+// .alram-bar span.yellow {}
+
+// @each 아이템변수정의 in 리스트변수명 {
+//     //CSS 코드
+// }

@@ -1,0 +1,38 @@
+$red: red;
+$fs20: 20px;
+$space: 100px;
+$mt100: $space;
+$pt100: $space;
+$black1e: #1e2530;
+$white: #fff;
+$green09: #09e27c;
+$grayca: #cacaca;
+$radius38: 38px;
+$radius22: 22px;
+$imgUrl: "../images/";
+// $imgIco: "../images/ico/";
+// $imgBu: "../images/bu/";
+// $imgbg: "../images/bg/";
+$yellow: yellow;
+$yellowff: #ffdc20;
+$blue00: #00d4ea;
+$bc: background-color;
+$mobileSize: 768px;
+$tabletSize: 1024px;
+
+// 순서를 주석으로 메모해둔다 : 클래스명, 배경색
+// 리스트배열의 단점 : 값이 많아질수록 그 순서를 외워야함
+
+// div {
+//   $blue: blue;
+
+//   margin-top: $mt100;
+//   padding-top: $pt100;
+//   color: $red;
+//   font-size: $fs20;
+//   padding: $fs20;
+// }
+// p {
+//   $blue: blue;
+//   color: $blue;
+// }
