@@ -1,0 +1,48 @@
+.avatar {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  gap: 5px;
+  &__img {
+    // width: 160px;
+    // height: 160px;
+    // object-fit: cover;
+    @for $index from 1 through 5 {
+      &#{$index} {
+        @include avatar(calc((100 * #{$index}) * 1px));
+      }
+    }
+
+    .type2 & {
+      &1 {
+        @include avatar(200px, false);
+      }
+    }
+    // @include avatar(160px);
+    // &2 {
+    //   @include avatar(200px);
+    // }
+    // &3 {
+    //   @include avatar(250px);
+    // }
+  }
+  strong {
+    padding-top: 15px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.9px;
+  }
+  p {
+    color: #666;
+    font-size: 14px;
+    letter-spacing: -0.7px;
+  }
+}
+
+.box {
+  @include position(f, 50%, 50%);
+  width: rem(120);
+  height: rem(120);
+  background-color: chocolate;
+}

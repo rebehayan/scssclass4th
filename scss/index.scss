@@ -1,5 +1,6 @@
 @import "var"; //변수정의
 @import "mixin"; //mixin
+@import "function"; // 함수
 @import "extend"; //extend
 @import "reset"; //reset
 @import "text"; //텍스트정의
@@ -8,3 +9,4 @@
 @import "card"; //카드
 @import "form"; //온라인서식
 @import "main"; //첫페이지
+@import "components"; // 컴포넌트
